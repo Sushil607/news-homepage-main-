@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <img src="./assets/images/logo.svg" alt="logo image" />
+        <ul class="navbar-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+        <div class="mobile-menu">
+          <div class="container">
+            <div class="close-icon-container">
+              <img
+                id="closeMenuIcon"
+                src="./assets/images/icon-menu-close.svg"
+                alt="menu close icon"
+              />
+            </div>
+            <ul class="mobile-menu-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Categories</a></li>
+            </ul>
+          </div>
+        </div>
+        <img
+          id="menuIcon"
+          src="./assets/images/icon-menu.svg"
+          alt="menu icon"
+        />
+      </nav>
+
+      <!-- Main -->
+      <div class="main-section">
+        <div class="showcase-container">
+          <div class="showcase-image-container"></div>
+          <div class="showcase-text-container">
+            <h1 class="xxl-text dark-text fw-800">
+              The Bright Future of Web3.0?
+            </h1>
+            <div class="showcase-text">
+              <div class="gray-text xs-text">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </div>
+              <button class="read-more-btn">read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="new-articles dark-bg">
+          <div class="orange-text fw-800 xl-text">New</div>
+          <div class="new-article">
+            <div class="white-text fw-700 sm-text">
+              Hydrogen VS Electric Cars
+            </div>
+            <div class="gray-text xs-text">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </div>
+          </div>
+          <div class="new-article">
+            <div class="white-text fw-700 sm-text">
+              The Downsides of AI Artistry
+            </div>
+            <div class="gray-text xs-text">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </div>
+          </div>
+          <div class="new-article">
+            <div class="white-text fw-700 sm-text">
+              Is VC Funding Drying Up?
+            </div>
+            <div class="gray-text xs-text">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Articles -->
+      <div class="articles">
+        <!-- Article 1 -->
+        <div class="article">
+          <div>
+            <img
+              src="./assets/images/image-retro-pcs.jpg"
+              alt="retro pcs image"
+            />
+          </div>
+          <div class="article-text">
+            <div class="light-text fw-800 lg-text">01</div>
+            <div class="dark-text fw-700 sm-text">Reviving Retro PCs</div>
+            <div class="gray-text xs-text">
+              What happens when old PCs are given modern upgrades?
+            </div>
+          </div>
+        </div>
+        <!-- Article 2 -->
+        <div class="article">
+          <div>
+            <img
+              src="./assets/images/image-top-laptops.jpg"
+              alt="top laptops image"
+            />
+          </div>
+          <div class="article-text">
+            <div class="light-text fw-800 lg-text">02</div>
+            <div class="dark-text fw-700 sm-text">Top 10 Laptops of 2022</div>
+            <div class="gray-text xs-text">
+              Our best picks for various needs and budgets.
+            </div>
+          </div>
+        </div>
+        <!-- Article 3 -->
+        <div class="article">
+          <div>
+            <img
+              src="./assets/images/image-gaming-growth.jpg"
+              alt="gaming growth image"
+            />
+          </div>
+          <div class="article-text">
+            <div class="light-text fw-800 lg-text">03</div>
+            <div class="dark-text fw-700 sm-text">The Growth of Gaming</div>
+            <div class="gray-text xs-text">
+              How the pandemic has sparked fresh opportunities.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://twitter.com/sushilb607" target="_blank"
+        >Sushilkumar Bodade</a
+      >.
+    </div>
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+  </body>
+</html>
